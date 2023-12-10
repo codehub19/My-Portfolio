@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Kanit:wght@100&family=Poppins&family=Rubik:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #080808;
+    color: #fff;
+    background-image: url(/images/pngegg.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-size: 28%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: #9c1313;
+}
+
+.header{
+    color: antiquewhite;
+    padding: 10px 20px;
+   
+     
+}
+
+.header h2{
+    width: 18%;
+    margin-top: 2.5%;
+    text-transform: uppercase;
+    padding: 1%;
+    margin-left: 23%;
+    border: #fa9537 2px solid;
+    border-radius: 30%;
+    background-color: #fff;
+    color: rgb(181, 162, 138);
+}
+
+.navbar {
+    position:fixed;
+    width: 18%;
+    background-color:#fa9537;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    opacity: 80%;
+    backface-visibility: visible; 
+    margin-left:32%;
+    left: 10%;
+    top: 90%;
+    border:blanchedalmond solid 2.5px;
+    border-radius: 50px;
+
+    
+}
+
+.navbar a:hover{
+    color: white;
+    width: 50%;
+    background-color:blanchedalmond;
+    padding: 1.5% 1.5%;
+    padding-top: 3.5%;
+    padding-bottom: 0.25%;
+    border-radius: 100%;
+    border: #9c1313 2px solid;
+}
+    
+
+
+
+
+
+.navbar li{
+    display:flex;
+    margin-left: 8%;
+    left: 5%;
+    display: inline;
+    list-style: none;
+    
+    
+    
+}
+
+
+.home {
+    width: 50%;
+    height: 30vh;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    text-align: center;
+}
+
+.home button{
+    padding: 2.5%;
+    margin: 2%;
+    border: #fa9537 solid 2px;
+    border-radius: 10%;
+}
+
+
+.logo {
+    background-color:#fa9537;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 8%;
+    margin-left: 45%;
+    border: antiquewhite solid 3px;
+    border-radius: 100%;
+    line-height: 0.9;
+    color: #080808;
+}
+
+
+.info a:hover{
+    color: #080808;
+    text-decoration: none;
+    
+}
+
+
+.handle{
+    position: fixed;
+    top: 200px;
+    width: 5%;
+    text-decoration: none;
+    
+     
+}
+
+.handle li{
+    
+    padding: 5% 8%;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    
+    margin-left: 40%;
+    margin-bottom: 25%;
+    border: antiquewhite 3px solid;
+    background-color: #fa9537;
+    border-radius:100%;
+    list-style: none;
+}
+
+
